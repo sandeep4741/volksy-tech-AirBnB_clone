@@ -43,4 +43,3 @@ class FileStorage:
                 for key, val in l_json.items():
                     FileStorage.__objects[key] = eval(
                         val['__class__'])(**val)
-
